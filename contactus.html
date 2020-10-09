@@ -78,17 +78,24 @@ input[type=submit]:hover {
 div {
   border-radius: 5px;
   background-color: black;
-  padding: 20px;
+  padding: 10px;
 
 }
 .footer {
-   position: fixed;
+   position: hover;
    left: 0;
    bottom: 0;
    width: 100%;
    background-color: black;
    color: #fed136;
    text-align: center;
+}
+
+.my {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+
 }
 </style>
 </head>
@@ -99,12 +106,12 @@ div {
   <a href="contactus.html" class="right">Contact Us</a>
  
 </div>
-
+<my>
 <div class="header">
   <h1>Contact Us</h1>
   <h3>Enter your Details</h3>
 
-<div>
+
   <form>
     <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -124,7 +131,7 @@ div {
     <input type="submit" value="Submit">
 </form>
 </div>
-</div>
+</my>
 <div class="footer">
   <p><marquee>YATAYATSEVA.IN</marquee></p>
 </div>
